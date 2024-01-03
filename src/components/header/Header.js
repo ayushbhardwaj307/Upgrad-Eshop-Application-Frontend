@@ -117,7 +117,7 @@ const Header = () => {
             {islogin &&
               <>
                 <NavLink to='products' style={{ margin: 'auto 10px' }} >Home</NavLink>
-               {logData()?.role=='ADMIN' && <NavLink to='addproduct' style={{ margin: 'auto 10px' }} >Add Product</NavLink>}
+               {logData()?.role==='ADMIN' && <NavLink to='addproduct' style={{ margin: 'auto 10px' }} >Add Product</NavLink>}
                 <Button className='logout' variant='container' color='secondary'onClick={logout}>Logout</Button>
               </>
             }

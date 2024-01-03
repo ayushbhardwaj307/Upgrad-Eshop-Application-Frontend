@@ -58,11 +58,10 @@ const login_post_data = (endpoint, data) => {
 };
 const logData = ()=>{
     if(localStorage.getItem('token')){
-        let obj = {
-            token:localStorage.getItem('token'),
-            role:localStorage.getItem('role'),
-        }
-        return obj;
+        return {
+            token: localStorage.getItem('token'),
+            role: localStorage.getItem('role'),
+        };
     }else{
         return null
     }

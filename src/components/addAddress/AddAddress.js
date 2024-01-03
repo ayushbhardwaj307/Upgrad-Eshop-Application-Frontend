@@ -1,13 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, {useEffect, useState} from 'react'
 import './addaddress.css'
-import { useNavigate, useParams } from 'react-router-dom'
+import {useNavigate, useParams} from 'react-router-dom'
 import Box from '@mui/material/Box';
 import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
-import { error_toast, success_toast } from '../../common/services';
-import { get_login, logData, post_login } from '../../common/fetch';
-import { Button, MenuItem, TextField } from '@mui/material';
+import {error_toast, success_toast} from '../../common/services';
+import {get_login, logData, post_login} from '../../common/fetch';
+import {Button, MenuItem, TextField} from '@mui/material';
+
 const steps = [
     'Item',
     'select address',
@@ -69,17 +70,16 @@ const AddAddress = () => {
             .then((res) => {
                 let a = res.data
                 a = a.map((e) => {
-                    let obj = {
+                    return {
                         state: e.state,
                         city: e.city,
                         street: e.street,
                         landmark: e.landmark,
                         zipcode: e.zipcode,
                         contactNumber: e.contactNumber,
-                        user:e.user,
-                        id:e.id
+                        user: e.user,
+                        id: e.id
                     }
-                    return obj
                 });
                 setAddressList(a)
             }).catch((e) => {

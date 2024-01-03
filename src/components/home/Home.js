@@ -121,9 +121,6 @@ const Home = () => {
             <ToggleButton key={i} value={e}>{e}</ToggleButton>
           )
         }
-        {/* <ToggleButton value="APPAREL">APPAREL</ToggleButton>
-        <ToggleButton value="ELECTRONICS">ELECTRONICS</ToggleButton>
-        <ToggleButton value="PERSONAL CARE">PERSONAL CARE</ToggleButton> */}
       </ToggleButtonGroup>
       <div style={{ marginLeft: '50px' }}>
         <p style={{ marginBottom: '20px' }}>Sort by:</p>
@@ -162,7 +159,7 @@ const Home = () => {
               </CardContent>
               <CardActions style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <Button size="small" variant='contained' onClick={()=>{navigate('/product/'+item.id)}}>Buy</Button>
-               {logData()?.role=='ADMIN' && <div>
+               {logData()?.role==='ADMIN' && <div>
                   <Button size="small" onClick={() => { navigate('/editproduct/' + item.id) }}><EditIcon /></Button>
                   <Button size="small" onClick={() => { delteSwal(item.id) }}><DeleteIcon /></Button>
                 </div>}

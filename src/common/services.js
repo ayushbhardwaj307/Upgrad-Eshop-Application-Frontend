@@ -8,7 +8,7 @@ Swal.fire({
       title: msg,
       showConfirmButton: false,
       showCloseButton: true,
-      timer: 2500
+      timer: 1500
     });
 }
 function error_toast(msg){
@@ -19,7 +19,7 @@ Swal.fire({
       title: msg,
       showConfirmButton: false,
       showCloseButton: true,
-      timer: 2500
+      timer: 1500
     });
 }
 function confirm_toast(callback) {
