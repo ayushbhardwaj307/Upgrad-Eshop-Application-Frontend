@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1904074b-4530-47bc-b8d8-6424e14ea37a" name="Changes" comment="Final Commit" />
+    <list default="true" id="1904074b-4530-47bc-b8d8-6424e14ea37a" name="Changes" comment="Some bug fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +33,9 @@
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Intellij/Projects/Upgrad-Eshop-Application-Frontend",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -51,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704262928769</updated>
-      <workItem from="1704262931337" duration="307000" />
+      <workItem from="1704262931337" duration="743000" />
     </task>
     <task id="LOCAL-00001" summary="Final Commit">
       <option name="closed" value="true" />
@@ -69,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704263197956</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Some bug fixes">
+      <option name="closed" value="true" />
+      <created>1704263670705</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704263670705</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Commit" />
+    <MESSAGE value="Some bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some bug fixes" />
   </component>
 </project>
