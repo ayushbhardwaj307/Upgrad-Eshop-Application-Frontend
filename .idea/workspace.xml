@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1904074b-4530-47bc-b8d8-6424e14ea37a" name="Changes" comment="Bug fixes">
+    <list default="true" id="1904074b-4530-47bc-b8d8-6424e14ea37a" name="Changes" comment="Fixed alerts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/addAddress/AddAddress.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/addAddress/AddAddress.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/addAddress/addaddress.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/addAddress/addaddress.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/addproduct/AddProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/addproduct/AddProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/previews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/previews.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/productdetails/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/productdetails/ProductDetails.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704262928769</updated>
       <workItem from="1704262931337" duration="1378000" />
-      <workItem from="1704264595147" duration="1138000" />
+      <workItem from="1704264595147" duration="1304000" />
+      <workItem from="1704277474066" duration="1102000" />
     </task>
     <task id="LOCAL-00001" summary="Final Commit">
       <option name="closed" value="true" />
@@ -122,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704264763983</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed alerts">
+      <option name="closed" value="true" />
+      <created>1704265790210</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704265790210</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +136,19 @@
     <MESSAGE value="Final Commit" />
     <MESSAGE value="Some bug fixes" />
     <MESSAGE value="Bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes" />
+    <MESSAGE value="Fixed alerts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed alerts" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/addproduct/AddProduct.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

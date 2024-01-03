@@ -13,12 +13,12 @@ import EditIcon from '@mui/icons-material/Edit';
 import './home.css'
 import { MenuItem, TextField, ToggleButton, ToggleButtonGroup } from '@mui/material';
 const Home = () => {
-  const loggdata = logData();
+  const logData1 = logData();
   const location = useLocation();
   const navigate = useNavigate();
   const [products1, setProducts1] = useState([])
   const [products, setProducts] = useState([])
-  const [categeries, setCategories] = useState(['ALL'])
+  const [categories, setCategories] = useState(['ALL'])
 
   const [alignment, setAlignment] = useState('ALL');
   const handleChange = (event, newAlignment) => {
@@ -59,7 +59,7 @@ const Home = () => {
   const getCategories = async () => {
     await get_login('/products/categories')
       .then((res) => {
-        let a = categeries.concat(res.data)
+        let a = categories.concat(res.data)
         setCategories(a)
       }).catch((e) => {
         error_toast(e.response.data.message)
@@ -85,7 +85,7 @@ const Home = () => {
   }
 
   useEffect(() => {
-    if (!loggdata) {
+    if (!logData1) {
       navigate('/login')
     } else {
       // getProducts();
@@ -117,7 +117,7 @@ const Home = () => {
         style={{ marginTop: '30px', width: '100%', display: 'flex', justifyContent: 'center' }}
       >
         {
-          categeries.map((e, i) =>
+          categories.map((e, i) =>
             <ToggleButton key={i} value={e}>{e}</ToggleButton>
           )
         }

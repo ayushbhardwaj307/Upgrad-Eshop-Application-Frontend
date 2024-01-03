@@ -5,6 +5,8 @@ import Chip from '@mui/material/Chip';
 import './productdetails.css'
 import { error_toast } from '../../common/services';
 import { Button, TextField } from '@mui/material';
+
+
 const ProductDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();

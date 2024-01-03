@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import { error_toast, success_toast } from '../../common/services';
 import { logData, post_data, post_login } from '../../common/fetch';
 import { TextField } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 const AddProduct = () => {
   const navigate = useNavigate();
