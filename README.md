@@ -1,1 +1,1 @@
-Upgrad Eshop Application Frontend project 
+Upgrad Eshop Application Frontend project

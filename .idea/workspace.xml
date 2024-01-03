@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1904074b-4530-47bc-b8d8-6424e14ea37a" name="Changes" comment="Fixed alerts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/addproduct/AddProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/addproduct/AddProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/productdetails/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/productdetails/ProductDetails.js" afterDir="false" />
+    <list default="true" id="1904074b-4530-47bc-b8d8-6424e14ea37a" name="Changes" comment="Added postman config for Admin user">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Intellij/Projects/Upgrad-Eshop-Application-Frontend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Intellij/Projects/Upgrad-Eshop-Application-Frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -76,7 +73,7 @@
       <updated>1704262928769</updated>
       <workItem from="1704262931337" duration="1378000" />
       <workItem from="1704264595147" duration="1304000" />
-      <workItem from="1704277474066" duration="1102000" />
+      <workItem from="1704277474066" duration="1506000" />
     </task>
     <task id="LOCAL-00001" summary="Final Commit">
       <option name="closed" value="true" />
@@ -126,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704265790210</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added postman config for Admin user">
+      <option name="closed" value="true" />
+      <created>1704278729200</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704278729200</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +142,8 @@
     <MESSAGE value="Some bug fixes" />
     <MESSAGE value="Bug fixes" />
     <MESSAGE value="Fixed alerts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed alerts" />
+    <MESSAGE value="Added postman config for Admin user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added postman config for Admin user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
